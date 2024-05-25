@@ -1,0 +1,136 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+  width: 100%;
+  height: 700px;
+  background: url('../img/AO-en-20240408-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+  background-size: auto;
+}
+main div.container{
+  width: 100%;
+  height: 100%;
+  backdrop-filter: brightness(0.5);
+  -webkit-backdrop-filter: brightness(0.5);
+}
+main div.container header{
+  width: 100%;
+}
+main div.container header nav{
+  width: 100%;
+  height: 100%;
+}
+
+main div.container header nav ul{
+  width: 100%;
+  display: flex;
+  padding: 30px 130px;
+  align-items: center;
+  justify-content: space-between;
+}
+main div.container header nav ul li a:last-child >  svg{
+  height: 40px;
+  color: #e50914;
+  fill: currentColor;
+}
+main div.container header nav ul li:last-child > a{
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #e50914;
+}
+main div.container div.content{
+  gap: 1.6rem;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 160px 0px 30px 0px;
+}
+main div.container div.content h1{
+  font-size: 3rem;
+  font-weight: 900;
+}
+main div.container div.content p{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+main div.container div.content h3{
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+main div.container form{
+  gap: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main div.container form input{
+  width: 375px;
+  height: 45px;
+  color: inherit;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0px 10px;
+  border-radius: 4px;
+  background: #00000085;
+  border: 1px solid #626161;
+}
+main div.container form button{
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  background: #e50914;
+}
+
+
+
+
+
+
+footer{
+  background: #000;
+  padding: 30px 130px 80px 130px;
+}
+footer a{
+  color: #ffffffb3;
+  text-decoration: underline;
+}
+footer ul{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+footer ul li{
+  display: inline-flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer select{
+  color: #fff;
+  font-size: 12pt;
+  margin-top: 40px;
+  padding: 8px 20px;
+  background: #0f0f0f;
+  border: 1px solid #5e5e5e;
+}
+
+footer span{
+  display: block;
+  margin-top: 30px;
+  color: #ffffffb3;
+}
